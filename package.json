@@ -1,0 +1,24 @@
+{
+  "name": "goo-genial-button",
+  "version": "1.0.0",
+  "description": "boton genial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "browser-sync start --server \".\" --files \"**/*.*\" --no-inject-changes"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoseChirinos/googenial.git"
+  },
+  "keywords": [
+    "super",
+    "boton"
+  ],
+  "author": "JoseChirinos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JoseChirinos/googenial/issues"
+  },
+  "homepage": "https://github.com/JoseChirinos/googenial#readme"
+}
