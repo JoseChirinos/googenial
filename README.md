@@ -1,3 +1,3 @@
-##Genial Button
+# Genial Button
 
-#available only for goomovil®2018
+## available only for goomovil®2018
