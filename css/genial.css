@@ -6,6 +6,7 @@
     display: block;
     width: 158px;
     cursor: pointer;
+    user-select: none;
 }
 .genial div{
     display: inline-block;
