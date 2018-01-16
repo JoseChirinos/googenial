@@ -13,6 +13,8 @@
     word-spacing: normal;
     letter-spacing: normal;
     white-space: normal;
+    -webkit-box-sizing: content-box!important;
+    box-sizing: content-box!important;
 }
 /*
  *   Bloques
