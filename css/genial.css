@@ -80,3 +80,51 @@
 .liked{
 	display: none;
 }
+
+/*
+ *      Styles only for view
+ */
+
+.genial-preview{
+    font-size: 55px;
+}
+.genial-preview .genial-left{
+    width: 1em;
+    height: 0.2910em;
+    line-height: 0;
+}
+.genial-preview .genial-left svg {
+    width: 1em;
+    height: 0.2181em;
+}
+.genial-preview .genial-smile {
+    border: 0.0274em solid #ffffff;
+    width: 0.8182em;
+    height: 0.8182em;
+    line-height: 0;
+}
+.genial-preview .genial-smile .unliked, .genial-preview .genial-smile .liked {
+    width: 0.8182em;
+    height: 0.8182em;
+}
+.genial-preview .genial-smile .unliked svg, .genial-preview .genial-smile .liked svg{
+    width: 0.8182em;
+    height: 0.8182em;
+}
+.genial-preview .genial-right {
+    font-size: 0.2545em;
+    width: 0.74em;
+    border-radius: 0.363em 0.1818em 0.1818em 0.363em;
+    padding: 0.363em 0.2545em 0.363em 0.2545em;
+    margin-left: -0.2545em;
+}
+.genial-preview .genial-right:before {
+    content: '';
+    position: absolute;
+    width: 0.81em;
+    height: 0.81em;
+    background: #FFFFFF;
+    left: -0.5818px;
+    top: -0.20px;
+    border-radius: 50%;
+}
