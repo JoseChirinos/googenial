@@ -27,14 +27,14 @@ var Genial = function(){
 			data.press = 1;
 			data.number_like = parseInt(data.number_like) + 1;
 			el.setAttribute('data-genial',JSON.stringify(data));
-			el.querySelector('.genial-right').textContent = data.number_like;
+			el.querySelector('.genial-right span').textContent = data.number_like;
 			this.liked(el);
 		}
 		else{
 			data.press = 0;
 			data.number_like = parseInt(data.number_like) - 1;
 			el.setAttribute('data-genial',JSON.stringify(data));
-			el.querySelector('.genial-right').textContent = data.number_like;
+			el.querySelector('.genial-right span').textContent = data.number_like;
 			this.unliked(el);
 		}
 	}

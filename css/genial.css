@@ -45,6 +45,10 @@
     text-align: right;
     user-select: none;
 }
+.genial-right span{
+    display: block;
+    font-size: 14px;
+}
 .genial-right:before{
 	content: '';
     position: absolute;
@@ -55,6 +59,7 @@
     top: -11px;
     border-radius: 50%;
 }
+
 /*
  *   SVG initial
  */
@@ -87,15 +92,19 @@
 
 .genial-preview{
     font-size: 55px;
+    letter-spacing: -0.2545em;
+    line-height: 0.2991em;
+    width: 2.87em;
 }
 .genial-preview .genial-left{
     width: 1em;
     height: 0.2910em;
-    line-height: 0;
+    line-height: 0.09em;
 }
 .genial-preview .genial-left svg {
     width: 1em;
-    height: 0.2181em;
+    height: 0.2184em;
+    vertical-align: middle;
 }
 .genial-preview .genial-smile {
     border: 0.0274em solid #ffffff;
@@ -111,20 +120,27 @@
     width: 0.8182em;
     height: 0.8182em;
 }
+.genial-preview .genial-smile .unliked{
+    display: none;
+}
+.genial-preview .genial-smile .liked{
+    display: block;
+}
+.genial-preview .genial-smile .liked svg{
+    fill: #A4A1A1;
+}
 .genial-preview .genial-right {
-    font-size: 0.2545em;
     width: 0.74em;
-    border-radius: 0.363em 0.1818em 0.1818em 0.363em;
-    padding: 0.363em 0.2545em 0.363em 0.2545em;
+    border-radius: 0.363em 0.5em 0.5em 0.363em;
+    padding: 0.0364em 0.2546em 0.0364em 0.2546em;
     margin-left: -0.2545em;
 }
+.genial-preview .genial-right span{
+    font-size: 0.2545em;
+}
 .genial-preview .genial-right:before {
-    content: '';
-    position: absolute;
     width: 0.81em;
     height: 0.81em;
-    background: #FFFFFF;
-    left: -0.5818px;
-    top: -0.20px;
-    border-radius: 50%;
+    left: -0.5818em;
+    top: -0.20em;    
 }
