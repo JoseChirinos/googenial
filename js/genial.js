@@ -15,10 +15,11 @@ var Genial = function(){
 	this.addEvent = function(){
 		var event = this.mobilecheck() ? 'touchstart':'click';
 		[].forEach.call(this._genial,function(i){
-			JSON.parse(i.getAttribute('data-genial'));
-			i.addEventListener(event,function(){
-				self.handlerLike(this);
-			})
+			if(i.getAttribute('class').indexOf('genial-preview')==-1){
+				i.addEventListener(event,function(){
+					self.handlerLike(this);
+				})
+			}
 		});
 	}
 	this.handlerLike = function(el){
